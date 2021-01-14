@@ -1,0 +1,49 @@
+h1{
+  border-bottom: 3px #ccddff solid;
+  font-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 30px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+  list-style-type: none;
+  border-right: 3px #ccddff solid;
+  margin: 0;
+  padding: 20px;
+  padding-left: 42px;
+  font-size: 24px;
+
+
+}
+img{
+  padding-top: 30px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 170px 1fr;
+}
+#img1{
+  padding: 30px;
+}
+
+#bt{
+  position:relative;
+  bottom:8px;
+}
+#tb{
+  position:relative;
+  left:300px;
+}
+#lg{
+
+  position: relative;
+  bottom: 500px;
+  right: 290px;
+
+}

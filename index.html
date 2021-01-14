@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Our system</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+    <h1><a href="index.html">Solar system</a></h1>
+    </header>
+    <div id= "grid">
+    <nav>
+      <ul>
+        <li><a href="1.html">Merqury</a></li>
+        <li><a href="2.html">Venurs</a></li>
+        <li><a href="3.html">Earth</a></li>
+      </ul>
+    </nav>
+
+     <article>
+        <div id="img1">
+          <div id="bt">
+            <input type="button" value="night" onclick="
+              if(this.value==='night'){
+              document.querySelector('body').style.backgroundColor = 'black';
+              document.querySelector('body').style.color = 'white ';
+              this.value='day';
+                }else{
+              document.querySelector('body').style.backgroundColor = 'white';
+              document.querySelector('body').style.color = 'black ';
+              this.value='night';
+              }">
+        </div>
+        <a href="https://ko.wikipedia.org/wiki/%ED%83%9C%EC%96%91%EA%B3%84" target="_blank"
+        title="dictionary definition"><img src="solar system4.jpg"></a>
+        </div>
+
+      </article>
+    </div>
+     <article>
+
+     </div>
+      <div id="tb">
+        <span id=lg>
+        <a href="login.html" ><input type="button" value=로그인></a>
+         </span>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>이름</th>  <th>행성형</th>  <th>행성계</th> <th>태양에서의 거리</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>수성</td>  <td>지구형</td>  <td rowspan="3">내행성계</td> <td>0.4 AU</td>
+          </tr>
+          <tr>
+            <td>금성</td>  <td>지구형</td>   <td>0.7 AU</td>
+          </tr>
+          <tr>
+            <td>지구</td>  <td>지구형</td>   <td>1 AU</td>
+          </tr>
+          <tfoot>
+            <tr>
+            <td colspan="3">합계</td>  <td>2.1 AU</td>
+            </tr>
+          </tfoot>
+        </tbody>
+      </table>
+    </article>
+  </div>
+  </body>
+</html>
